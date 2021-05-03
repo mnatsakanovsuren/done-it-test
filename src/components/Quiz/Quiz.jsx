@@ -6,11 +6,10 @@ import Timer from "../Timer/Timer";
 const Quiz = ({data}) => {
   const TIME_FOR_QUESTION = 30; // in seconds
   const [counter, setCounter] = useState(TIME_FOR_QUESTION);
-
   const [questionNumber, setQuestionNumber] = useState(0);
 
-  const reset = (e) => {
-    e.preventDefault();
+  const reset = (event) => {
+    event.preventDefault();
     setQuestionNumber(0);
   };
 
@@ -38,6 +37,6 @@ const Quiz = ({data}) => {
       }
     </div>
   )
-}
+};
 
 export default Quiz;

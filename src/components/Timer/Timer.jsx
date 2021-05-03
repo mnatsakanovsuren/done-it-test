@@ -10,6 +10,7 @@ const Timer = ({counter, setCounter}) => {
 
   return (
     <div className="timer">
+      <p>Time:</p>
       <p className={`timer__content ${counter < 10 && 'danger'}`}>0:{counter > 9 ? counter : `0${counter}`}</p>
     </div>
   );
