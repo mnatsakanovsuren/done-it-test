@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is the scientific name of a butterfly?",
+    "image": "https://kratkoe.com/wp-content/uploads/2017/04/babochka.jpg",
+    "type": "test",
+    "answers": [
+      "Apis",
+      "Coleoptera",
+      "Formicidae",
+      "Rhopalocera"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What brand of car is in the picture?",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/BMW_G11_IMG_2002.jpg/1200px-BMW_G11_IMG_2002.jpg",
+    "type": "question",
+    "correctIndex": "bmw"
+  },
+  {
+    "question": "How hot is the surface of the sun?",
+    "image": "https://www.princeton.edu/sites/default/files/styles/1x_full_2x_half_crop/public/images/2019/12/videobanner.jpg",
+    "type": "test",
+    "answers": [
+      "1,233 K",
+      "5,778 K",
+      "12,130 K",
+      "101,300 K"
+    ],
+    "correctIndex": 1
+  }
+]

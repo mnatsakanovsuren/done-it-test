@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.App {
+  padding: 40px;
+  background-color: #f6f6ff;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.main-title {
+  margin-bottom: 15px;
+  color: #eea542;
+  text-align: center;
+}
+
+@import "components/Question/Question";
+@import "components/Finish/Finish";
+@import "components/Timer/Timer";
