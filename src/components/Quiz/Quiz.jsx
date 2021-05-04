@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useCallback} from 'react';
 import Question from "../Question/Question";
 import Finish from "../Finish/Finish";
 import Timer from "../Timer/Timer";
@@ -8,16 +8,16 @@ const Quiz = ({data}) => {
   const [counter, setCounter] = useState(TIME_FOR_QUESTION);
   const [questionNumber, setQuestionNumber] = useState(0);
 
-  const reset = (event) => {
+  const reset = useCallback((event) => {
     event.preventDefault();
     setQuestionNumber(0);
-  };
+  }, []);
 
-  const handleAnswer = (event) => {
+  const handleAnswer = useCallback((event) => {
     event.preventDefault();
     setQuestionNumber(questionNumber + 1);
     setCounter(TIME_FOR_QUESTION);
-  };
+  }, [questionNumber]);
 
   return (
     <div className="quiz-item__wrapper">
