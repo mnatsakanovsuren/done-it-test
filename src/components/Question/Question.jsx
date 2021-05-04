@@ -30,7 +30,7 @@ const Question = ({itemData, handleAnswer, buttonText}) => {
           <textarea
             name="open-question"
             className="quiz-item__form__textarea"
-            placeholder="Ответ"
+            placeholder="Your answer"
           />
         </label>}
         <button

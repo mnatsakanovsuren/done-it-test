@@ -1,6 +1,5 @@
 .idea/
 node_modules/
-src/**/*.css
 src/App.css
 src/App.css.map
 text
